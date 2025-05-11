@@ -27,7 +27,7 @@ public class SplashActivity extends AppCompatActivity {
 
         // delay the transition to MainActivity
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
-            Intent mainIntent = new Intent(SplashActivity.this, MainActivity.class);
+            Intent mainIntent = new Intent(SplashActivity.this, LoginActivity.class);
             startActivity(mainIntent);
             finish();
         }, SPLASH_SCREEN_TIMEOUT);
