@@ -49,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Will be implemented in future to navigate to ProductActivity
                 Toast.makeText(MainActivity.this, "Product Catalog feature coming soon", Toast.LENGTH_SHORT).show();
+
+                // move to product catalog activity
+                Intent intent = new Intent(MainActivity.this, ProductCatalogActivity.class);
+                startActivity(intent);
+//                finish();
             }
         });
 
