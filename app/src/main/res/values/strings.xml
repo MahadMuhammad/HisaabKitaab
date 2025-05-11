@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HisaabKitaab</string>
+    <string name="app_logo">Hisaab Kitaab</string>
+    <string name="app_tagline">Hisaab Kitaab Hua Asaan</string>
 </resources>
